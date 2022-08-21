@@ -47,7 +47,7 @@ function popDown(){
     document.getElementById('popup').style.display = 'none';
 }
 
-if(document.documentElement.clientWidth > 390){
+if(document.documentElement.clientWidth > 425){
     setTimeout(popUp, 3000);
 }
 
